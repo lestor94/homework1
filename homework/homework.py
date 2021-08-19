@@ -24,9 +24,8 @@ u = int(input("How many pizza? "))
 v = int(input("how many people? "))
 
 pizza = int(u*8)
+pizza = u
 people = v
-
-u = pizza
 
 print("each person will have a ",pizza/people, ' slices of pizza')
 
@@ -38,6 +37,8 @@ x = int(input("Convert X to Y "))
 y = 26.9
 z = int(x)/int(y)
 if x > 0:
-    print("you can buy ",z," for ",x," by exchange ",y)
+    print("you can buy ",z, "for ",x," by exchange ",y)
 else:
     print("Wrong input")
+
+#Fifth task
