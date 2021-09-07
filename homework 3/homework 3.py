@@ -1,49 +1,50 @@
-#task 1
-# mylist = [10,2,7,2,1,6,0,8]
-# x = 0
-# if mylist == sorted(mylist):
-#     x = 1
-# if x:
-#     print('your list is sorted')
-# else:
-#     print('your list is not sorted')
-
-
-
-
-# #task 2
-
-x = "asdfga"
-print(x.split(","))
-
-
-
-
-# #task 3
-# lst = ['green','red','left','right','moon','sun'] [::-1]
-# print(lst)
-
-
-
-
-
-# #task 4
+# #task 1
+# # mylist = [1,2,3,4,5,6,7]
+# # x = 0
+# # if mylist == sorted(mylist):
+# #     x = 1
+# # if x:
+# #     print (True)
+# # else:
+# #     print (False)
+# #
+# # #task 2
+# # def MyMultiple(n):
+# #     multiple = 1
+# #     num = str(n)
+# #     for x in num:
+# #         multiple = multiple * int(x)
+# #
+# #     return multiple
+# #
+# # n = input('Type your digits ')
+# # print(list(n))
+# # print(MyMultiple(n))
 #
-# prd = {"salt":"2", "meat": "25",
-#        "apples": "6", "banana":"3",
-#        "milk": "4.5", "bread": "2.5"}
-
-
-
-
-#task 5
-
-# z = input('Please, choose the category of hotels. Type stars ')
+#
+# # # #task 3
+# # lst = ['Red', 'Green', 'Blue', 'White', 'Black']
+# # print(lst[1:5])
+# #
+# # # #task 4
+# #
+# # prd = {"salt":"2",
+# #        "meat": "25",
+# #        "apples": "6",
+# #        "banana":"3",
+# #        "milk": "4.5",
+# #        "bread": "2.5"}
+#
+#
+#
+# #task 5
+#
+# # inpt = input("Please, type the count of stars")
 # lst = {"Continental Hotel" : "****","Big Street Hotel" : "**",
 # "Corner Hotel" : "**", "Trashviews Hotel" : "*",
 # "Hazbins" : "****", "Hazbins Deluxe" : "*****"
 # }
-# print(z.fromkeys(lst))
-
+#
+# print(keys)
 
 
