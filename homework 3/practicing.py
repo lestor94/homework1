@@ -39,11 +39,37 @@
 #         return True
 #     return False
 # print(is_ascended(*lst))
+#
+# x = 7
+# def my_func():
+#     global x
+#     x += 3
+#     print(x)
+# my_func()
+# print(x)
 
-x = 7
-def my_func():
-    global x
-    x += 3
-    print(x)
-my_func()
-print(x)
+# def f1():
+#     x = 88
+#     def f2():
+#         print(x)
+#     return f2
+# f1()()
+#
+# def maker(n):
+#     def action(x):
+#         return x ** n
+#     return action
+# f = maker(3)
+# f(4)
+# def name(name):
+#     def surname_cap(surn):
+#         print(f'{name.upper}{surn.upper}')
+#     return surname_cap
+# n = name("Arsen")
+# n("Kakheli")
+# print(n)
+# print(n)
+# n("Kakheli")
+
+from test import tests1
+print(tests1.x)
