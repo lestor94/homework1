@@ -23,10 +23,9 @@ def root(x):
 def cuber(x):
     return x**(1/3)
 
-
-print("Basic Operations: " + "1.Add" + " " + "2.Subtract" + " " + "3.Multiply" + " " + "4.Divide")
-print("Advanced Operations: " + "5.Pitch" + " " + "6.Square Root" + " " + "7.Cube Root")
 while True:
+    print("Basic Operations: " + "1.Add" + " " + "2.Subtract" + " " + "3.Multiply" + " " + "4.Divide")
+    print("Advanced Operations: " + "5.Pitch" + " " + "6.Square Root" + " " + "7.Cube Root")
     choise = int(input("Choose the operation, provided upper: "))
 
     if choise == 1:
@@ -61,5 +60,5 @@ while True:
         print("As you wish!")
         break
 
-else:
-    print("Invalid Input")
+    else:
+        print("Invalid Input")
