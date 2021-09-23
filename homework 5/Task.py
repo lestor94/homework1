@@ -9,11 +9,11 @@ class Task():
         self.id = int(self.get_id()) +1
 
     def get_id(self):
-        with open('id_counter','w') as id_file:
+        with open('../homework 4/id_counter', 'w') as id_file:
             return id_file.read().strip()
 
     def update_id(self):
-        with open('id_counter','w') as id_file:
+        with open('../homework 4/id_counter', 'w') as id_file:
             id_file.write(self.id)
 if __name__ == '__main__':
     t1 = Task(1,1)
