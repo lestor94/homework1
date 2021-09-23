@@ -3,10 +3,11 @@ new_dict = {"key1":"Hello World",
             "key3":"Hell World",
             12:"Helloo woorld"}
 
+new_lst = []
 
 def s():
     for key, value in new_dict.items():
         if isinstance(key, str):
-            values = new_dict.values()
-            print(list(values))
+            new_lst.append(value)
+            print(new_lst)
 s()
