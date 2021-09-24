@@ -1,12 +1,12 @@
 # task 3
 
-x = open("homework 443",'r')
-x.read()
-
-while True:
-    if x == 0:
-        print("It's empty")
-        break
-    else:
-        print("It has something")
-        break
+def s():
+    with open("homework 443",'r') as file:
+        file_content = file.read()
+        f = file_content.count(".")
+        s = file_content.capitalize()
+        print(file_content)
+        print("")
+        # print(s)
+        print("This file contains " + str(f) + " sentences")
+s()
