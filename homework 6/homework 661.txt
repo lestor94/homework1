@@ -1,1 +1,6 @@
-hello world. nice to meet you. my name is Arsen
+Hello! My name is Arsen! Nice to meet you! Currently, I"m residing in Kyiv city and working as a Data
+Mining specialist in Influ2, inc. For this moment I"m studying Python language ane doing this task.
+I"m going to be a Data Engineer. That"s why I started to learn this adorable language. It"s quite difficult, but I"m
+doing my best. I want to automatize some processes to create the comfortable conditions from my department. As I"m working
+with data, I need to learn more than Python. BTW, firstly I need to pass the basic course of Python development
+Wish me good luck, as I"m going to learn something difficult and interesting in my life!!
