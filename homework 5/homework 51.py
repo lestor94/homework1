@@ -1,31 +1,18 @@
-Dairy = {
-        "Milk": {"Price: ": 1, "Quantity: ": 113},
-        "Yoghurt": {"Price: ": 2, "Quantity: ": 98},
-        "Cottage Cheese": {"Price: ": 4, "Quantity: ": 50},
-        "Gorgonzola Cheese": {"Price: ": 7, "Quantity: ": 41},
-        },
-Fish = {
-        "Salmon": {"Price: ": 20, "Quantity: ": 22},
-        "Mackerel": {"Price: ": 14, "Quantity: ": 31},
-        "Anchovy": {"Price: ": 10, "Quantity: ": 91},
-        },
-Beverages = {
-        "Cola": {"Price: ": 1, "Quantity: ": 100},
-        "Fanta": {"Price: ": 1, "Quantity: ": 100},
-        "Sprite": {"Price: ": 1, "Quantity: ": 100},
-        "Dr.Pepper": {"Price: ": 1.5, "Quantity: ": 120},
-        },
-Spirits = {
-        "Jameson": {"Price: ": 8, "Quantity: ": 24},
-        "Johnie Walker": {"Price: ": 8, "Quantity: ": 32},
-        "Tullamore Dew": {"Price: ": 12, "Quantity: ": 12},
-        "Grant's": {"Price: ": 14, "Quantity: ": 14},
-    },
-Sweets = {
-        "Haribo": {"Price: ": 1, "Quantity: ": 22},
-        "Trolli": {"Price: ": 1, "Quantity: ": 31},
-        "Roshen": {"Price: ": 1.5, "Quantity: ": 91},
-        },
+dairy = {1: {"Price": 21, "Quantity": 113},
+        2: {"Price": 39, "Quantity": 98}}
+
+fish = {1: {"Price": 90, "Quantity": 22},
+        2: {"Price": 86, "Quantity": 31}}
+
+bever = {1: {"Price": 15, "Quantity": 100},
+            2: {"Price": 15, "Quantity": 100}}
+
+spirits = {1: {"Price": 319, "Quantity": 24},
+           2: {"Price": 550, "Quantity": 32}}
+
+sweets = {1: {"Price": 63, "Quantity": 22},
+          2: {"Price": 59, "Quantity": 31}}
+
 
 while True:
 
@@ -36,20 +23,70 @@ while True:
     cs = category_choice
 
     if cs == 1:
-        print(Dairy)
-        break
-    if cs == 2:
-        print(Fish)
-        break
-    if cs == 3:
-        print(Beverages)
-        break
-    if cs == 4:
-        print(Spirits)
-        break
-    if cs == 5:
-        print(Sweets)
-        break
+        while True:
+               d = int(input("Choose the product: 1.Milk 2.Yoghurt "))
+               if d == 1:
+                   print("The price of this product is " + str(dairy[1]["Price"]) +". " " Quantity: " + str(dairy[1]["Quantity"]))
+                   break
+               elif d == 2:
+                   print("The price of this product is " + str(dairy[2]["Price"]) +". " " Quantity: " + str(dairy[2]["Quantity"]))
+                   break
+               else:
+                   print('Wrong Input')
+                   break
 
-else:
-    print("Invalid Input")
+    if cs == 2:
+        while True:
+               d = int(input("Choose the product: 1.Salmon 2.Mackerel "))
+               if d == 1:
+                   print("The price of this product is " + str(fish[1]["Price"]) +". " " Quantity: " + str(fish[1]["Quantity"]))
+                   break
+               elif d == 2:
+                   print("The price of this product is " + str(fish[2]["Price"]) +". " " Quantity: " + str(fish[2]["Quantity"]))
+                   break
+
+               else:
+                   print('Wrong Input')
+                   break
+
+    if cs == 3:
+        while True:
+               d = int(input("Choose the product: 1.Cola 2.Fanta "))
+               if d == 1:
+                   print("The price of this product is " + str(bever[1]["Price"]) +". " " Quantity: " + str(bever[1]["Quantity"]))
+                   break
+               elif d == 2:
+                   print("The price of this product is " + str(bever[2]["Price"]) +". " " Quantity: " + str(bever[2]["Quantity"]))
+                   break
+               else:
+                   print('Wrong Input')
+                   break
+
+    if cs == 4:
+        while True:
+               d = int(input("Choose the  1.Baileys 2.Johnie Walker "))
+               if d == 1:
+                   print("The price of this product is " + str(spirits[1]["Price"]) +". " " Quantity: " + str(spirits[1]["Quantity"]))
+                   break
+               elif d == 2:
+                   print("The price of this product is " + str(spirits[2]["Price"]) +". " " Quantity: " + str(spirits[2]["Quantity"]))
+                   break
+               else:
+                   print('Wrong Input')
+                   break
+
+    if cs == 5:
+        while True:
+               d = int(input("Choose the  1.Haribo 2.Trolli "))
+               if d == 1:
+                   print("The price of this product is " + str(sweets[1]["Price"]) +". " " Quantity: " + str(sweets[1]["Quantity"]))
+                   break
+               elif d == 2:
+                   print("The price of this product is " + str(sweets[2]["Price"]) +". " " Quantity: " + str(sweets[2]["Quantity"]))
+                   break
+               else:
+                   print('Wrong Input')
+                   break
+
+    else:
+        print("Wrong Input!")
