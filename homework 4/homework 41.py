@@ -54,11 +54,10 @@ while True:
     elif choise == 7:
         x = float(input("Argument to be cube rooted: "))
         print("cuberoot", " = ", cuber(x))
+    else:
+        print("Invalid input!")
 
     restart = input("One more operation? (y/n): ")
     if restart == "n":
         print("As you wish!")
         break
-
-    else:
-        print("Invalid Input")
